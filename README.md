@@ -1,54 +1,60 @@
-## text = "Hello Baby"
-- Reverse this string
-( Output: 'ybab olleh' )
- ```python
+## Exercise 1
+- Reverse this string 
+```python
 text = "Hello Baby"
-
 reverseText = ""
 lastIndex = len(text) - 1
 
 for index in range(len(text)): 
     reverseText += text[lastIndex - index]
 print(reverseText)
+
+# Output: ybab olleh
 ```
-- Reverse this string using negative index
-( Output: 'ybab olleh' )
- ```python
+- Reverse this string using negative index 
+``` python
 text = "Hello Baby"
 reverseText = ""
 for index in range(1,len(text) + 1): 
     reverseText += text[-index]
 print(reverseText)
+
+# Output: ybab olleh 
 ```
 
-## arr = [5,7,8,4,3]
-- Sum all numbers in this array
-( Outputt: 27 )
- ```python
+## Exercise 2
+- How many average of number in list?
+```python
 arr = [5, 7, 8, 4, 3]
-sum = 0
-for value in arr:
-    sum += value
-print(sum)
-```
-- Find average of the all the number in the array
-( Output: 5.4)
- ```python
-arr = [5, 7, 8, 4, 3] 
 average = 0
 sum = 0
 for value in arr:
     sum += value
 average = sum / len(arr)
 print(average)
+
+# Output: 5.4
 ```
-- Find even number in the array 
-( Output: [8,4] )
- ```python
+<!-- ## arr = [5,7,8,4,3] -->
+- Sum all number in array?
+```python
+arr = [5, 7, 8, 4, 3]
+sum = 0
+for value in arr:
+    sum += value
+print(sum)
+
+# Output : 27
+```
+## Exercise 3
+- finds and prints all even numbers in the list
+```python
 arr = [5, 7, 8, 4, 3]
 for value in arr:
-    if value % 2 == 0: 
+    if value % 2 == 0:
         print(value)
+
+# Output: 8 , 4 
 ```
 
 
